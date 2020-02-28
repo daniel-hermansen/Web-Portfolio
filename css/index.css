@@ -127,7 +127,7 @@ table {
   border-spacing: 0;
 }
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Caladea';
 }
 .home-body {
   background-image: url(https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
@@ -179,6 +179,7 @@ body {
   font-size: 1.15em;
   padding-top: 1.5vh;
   padding-bottom: 1.5vh;
+  font-family: 'Caladea';
 }
 .buttons-div button:hover {
   cursor: pointer;
