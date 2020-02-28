@@ -135,6 +135,7 @@ body {
 }
 #header {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -143,7 +144,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 15%;
+  margin-top: 12.5%;
+  margin-bottom: 7.5%;
 }
 #name {
   font-size: 3em;
@@ -153,6 +155,33 @@ body {
 #home-subtitle {
   font-size: 2.25em;
   color: #eff3f8;
+}
+.main-div-two p {
+  color: #eff3f8;
+  font-size: 1.15em;
+  font-weight: bold;
+  margin-bottom: 7.5%;
+}
+.main-div-two {
+  display: flex;
+  flex-direction: column;
+}
+.buttons-div {
+  display: flex;
+  justify-content: space-around;
+}
+.home-buttons {
+  width: 10rem;
+  color: #eff3f8;
+  background-color: #2f455e;
+  border: solid #eff3f8 2px;
+  border-radius: 7px;
+  font-size: 1.15em;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+}
+.buttons-div button:hover {
+  cursor: pointer;
 }
 #header {
   width: 100%;
