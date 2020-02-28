@@ -1,32 +1,31 @@
-#header {
-    display: flex;
-    width: 100%;
+.home-body {
+    background-image: url(https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-color: rgb(47, 69, 94);
 }
 
-.first-header {
-    width: 70%;
+#header {  
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
-.second-header {
-    width: 30%;
+.main-div-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15%;
 }
+
 
 #name {
     font-size: @headings;
-    display: flex;
-    justify-content: center;
+    color: @heading-color;
+    margin-bottom: 3vh;
 }
 
 #home-subtitle {
     font-size: @sub-headings;
-    display: flex;
-    justify-content: center;
-}
+    color: @heading-color;
 
-#profile-img {
-    width: 70%;
-    border-radius: 50%;
 }

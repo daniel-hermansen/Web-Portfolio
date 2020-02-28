@@ -129,32 +129,30 @@ table {
 body {
   font-family: 'Ubuntu', sans-serif;
 }
-#header {
-  display: flex;
-  width: 100%;
+.home-body {
+  background-image: url(https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-color: #2f455e;
 }
-.first-header {
-  width: 70%;
+#header {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
-.second-header {
-  width: 30%;
+.main-div-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15%;
 }
 #name {
   font-size: 3em;
-  display: flex;
-  justify-content: center;
+  color: #eff3f8;
+  margin-bottom: 3vh;
 }
 #home-subtitle {
   font-size: 2.25em;
-  display: flex;
-  justify-content: center;
-}
-#profile-img {
-  width: 70%;
-  border-radius: 50%;
+  color: #eff3f8;
 }
 #header {
   width: 100%;
@@ -164,14 +162,14 @@ body {
   align-items: center;
   justify-content: flex-end;
   width: 100%;
-  background-color: dodgerblue;
-  height: 5.5vh;
+  background-color: #2f455e;
+  height: 7.5vh;
 }
 .nav-links {
   color: #eff3f8;
   text-decoration: none;
   padding-left: 2%;
-  font-size: 1.25em;
+  font-size: 1em;
 }
 .last-link {
   padding-right: 2%;
