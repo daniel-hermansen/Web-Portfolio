@@ -127,13 +127,13 @@ table {
   border-spacing: 0;
 }
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Caladea';
 }
-.home-body {
+#home-body {
   background-image: url(https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
   background-color: #2f455e;
 }
-#header {
+#home-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -145,7 +145,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin-top: 12.5%;
-  margin-bottom: 7.5%;
+  margin-bottom: 3vh;
 }
 #name {
   font-size: 3em;
@@ -179,9 +179,61 @@ body {
   font-size: 1.15em;
   padding-top: 1.5vh;
   padding-bottom: 1.5vh;
+  font-family: 'Caladea';
 }
 .buttons-div button:hover {
   cursor: pointer;
+}
+#portfolio-body {
+  background-image: url(https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-color: #2f455e;
+  color: #eff3f8;
+}
+#projects {
+  margin-top: 7.5vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.major {
+  font-size: 1.75em;
+  margin-bottom: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.minor {
+  font-size: 1.45em;
+}
+#about-body {
+  background-image: none;
+  background-color: #ffffff;
+  color: #2f455e;
+}
+#about {
+  display: flex;
+  margin-top: 6%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+}
+.about-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+#about-img {
+  width: 90%;
+  height: auto;
+  border-radius: 5%;
+}
+#about h2 {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 5vh;
+}
+#contact-body {
+  background-image: url(https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-color: #2f455e;
+  color: #eff3f8;
 }
 #header {
   width: 100%;
